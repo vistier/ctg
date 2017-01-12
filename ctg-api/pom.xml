@@ -1,0 +1,27 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+
+   <parent>
+      <groupId>cn.imeth.ctg</groupId>
+      <artifactId>ctg-parent</artifactId>
+      <version>1.0</version>
+   </parent>
+
+   <artifactId>ctg-api</artifactId>
+
+   <name>${project.artifactId}</name>
+   <description>api</description>
+   <packaging>jar</packaging>
+
+   <dependencies>
+
+      <dependency>
+         <groupId>cn.imeth.ctg</groupId>
+         <artifactId>ctg-core</artifactId>
+         <version>${project.version}</version>
+      </dependency>
+
+   </dependencies>
+
+</project>
+

@@ -1,0 +1,23 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.imeth.ctg</groupId>
+        <artifactId>ctg-parent</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <artifactId>ctg-template</artifactId>
+
+    <name>${project.artifactId}</name>
+    <description>内容管理</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>ctg-template-api</module>
+        <module>ctg-template-manager</module>
+        <module>ctg-template-process-html</module>
+    </modules>
+
+</project>
+

@@ -1,0 +1,27 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+
+   <parent>
+      <groupId>cn.imeth.ctg</groupId>
+      <artifactId>ctg-template</artifactId>
+      <version>1.0</version>
+   </parent>
+
+   <artifactId>ctg-template-api</artifactId>
+
+   <name>${project.artifactId}</name>
+   <description>内容模板api</description>
+   <packaging>jar</packaging>
+
+   <dependencies>
+
+      <dependency>
+         <groupId>cn.imeth.ctg</groupId>
+         <artifactId>ctg-api</artifactId>
+         <version>${project.version}</version>
+      </dependency>
+
+   </dependencies>
+
+</project>
+

@@ -1,0 +1,17 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+
+   <parent>
+      <groupId>cn.imeth.ctg</groupId>
+      <artifactId>ctg-parent</artifactId>
+      <version>1.0</version>
+   </parent>
+
+   <artifactId>ctg-core</artifactId>
+
+   <name>${project.artifactId}</name>
+   <description>核心部门</description>
+   <packaging>jar</packaging>
+
+</project>
+
